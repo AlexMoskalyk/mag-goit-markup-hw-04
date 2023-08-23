@@ -159,17 +159,22 @@ button {
 
 .nav-menu__link {
   display: block;
-  position: relative;
+
   padding: 24px 0;
   color: var(--dark);
 }
 
-.nav-menu__link:hover::after,
-.nav-menu__link:focus::after {
+.nav-menu__link.current {
+  position: relative;
+  color: #404bbf;
+}
+
+.nav-menu__link.current::after,
+.nav-menu__link.current:hover::after,
+.nav-menu__link.current:focus::after {
   position: absolute;
   left: 0;
   bottom: -1px;
-
   content: '';
   display: block;
   width: 100%;
