@@ -151,17 +151,17 @@ button {
   color: var(--dark);
 }
 
+.nav-menu__link {
+  display: block;
+  padding: 24px 0;
+  color: var(--dark);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav-menu__item .nav-menu__link:hover,
 .nav-menu__item .nav-menu__link:focus {
   color: var(--pressed-state);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-menu__link {
-  display: block;
-
-  padding: 24px 0;
-  color: var(--dark);
 }
 
 .nav-menu__link.current {
