@@ -167,7 +167,9 @@ button {
 .nav-menu__link:hover::after,
 .nav-menu__link:focus::after {
   position: absolute;
-  top: 69px;
+  left: 0;
+  bottom: -1px;
+
   content: '';
   display: block;
   width: 100%;
