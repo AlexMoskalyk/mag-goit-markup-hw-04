@@ -534,9 +534,10 @@ button {
 .examples__link {
   display: block;
 }
-
 .examples__link:hover,
-.examples__link:focus {
+.examples__link:focus,
+.examples__link:hover .examples__text-overlay,
+.examples__link:focus .examples__text-overlay {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
@@ -563,10 +564,10 @@ button {
   overflow: hidden;
 }
 
-.examples__img-wrapper:hover .examples__text-overlay,
+/* .examples__img-wrapper:hover .examples__text-overlay,
 .examples__img-wrapper:hover .examples__text-overlay {
   transform: translateY(0%);
-}
+} */
 
 .examples__text-overlay {
   position: absolute;
