@@ -457,6 +457,7 @@ button {
 .customers__link:hover,
 .customers__link:focus {
   border-color: var(--pressed-state);
+  color: var(--pressed-state);
 }
 
 .customers__icon {
