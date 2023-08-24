@@ -363,8 +363,7 @@ button {
 }
 
 .team__data-wrapper {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding: 32px 0;
 }
 
 .team__text {
