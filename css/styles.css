@@ -409,7 +409,7 @@ button {
 .team__icon {
   width: 16px;
   height: 16px;
-  fill: var(--white-background);
+  fill: var(--light);
 }
 
 .customers {
