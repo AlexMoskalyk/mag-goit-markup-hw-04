@@ -425,6 +425,7 @@ button {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   margin-bottom: 72px;
+  color: var(--dark);
 }
 
 .customers__list {
