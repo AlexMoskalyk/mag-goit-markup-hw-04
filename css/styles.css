@@ -582,8 +582,9 @@ button {
 
 .footer__container {
   display: flex;
+  align-items: baseline;
   justify-content: start;
-  gap: 120px;
+  margin-right: 120px;
 }
 
 .footer__social-links-title {
@@ -592,18 +593,21 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
 }
 
 .footer__social-links-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer__social-link {
   display: block;
-  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -619,7 +623,7 @@ button {
 .footer__social-link-icon {
   width: 24px;
   height: 24px;
-  fill: var(--white-background);
+  fill: var(--light);
 }
 
 .footer-text {
