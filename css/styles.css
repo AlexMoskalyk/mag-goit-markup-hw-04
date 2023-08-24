@@ -437,8 +437,6 @@ button {
 }
 
 .customers__list-item {
-  padding: 16px 32px;
-
   width: calc((100% - 120px) / 6);
 }
 
